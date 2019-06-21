@@ -1,0 +1,19 @@
+.contacts {
+    color: white;
+	background: #23374F;
+    text-align: center;
+    padding: 30px 0;
+    &__title{
+        font-size: 48px;
+        line-height: 72px;
+    }
+    &__link{
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 72px;
+        color: white;
+    }
+    &__link>a{
+        color: white;
+    }
+}

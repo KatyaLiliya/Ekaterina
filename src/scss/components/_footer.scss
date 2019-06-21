@@ -1,0 +1,12 @@
+.footer {
+    color: white;
+	background: #45B7E3;
+    text-align: right;
+    &__site{
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 72px;
+        padding: 23px 0;
+    }
+    
+}

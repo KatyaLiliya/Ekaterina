@@ -1,0 +1,17 @@
+.infobox {
+    color: white;
+    background-image:linear-gradient(to top, rgba(41,40,43,0.4), rgba(41,40,43,0.4)), url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+    padding: 50px 0;
+    &__title{
+        font-size: 48px;
+        line-height: 72px;
+    }
+    &__description{
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 72px;
+    }
+}
