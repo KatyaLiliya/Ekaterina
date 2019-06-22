@@ -6,15 +6,17 @@
     font-size: 36px;
     font-weight: 300;
   }
-  &__common>a{
+  &__common{
     color: black;
+    margin: 0 19px;
   }
   &__label{
     padding: 30px 0px 16px 0px;
     font-size: 48px;
     line-height: 72px;
   }
-  &__map {
-    font-style: italic;
+  a:hover{
+    color: red;
+    text-decoration: none;
   }
 }

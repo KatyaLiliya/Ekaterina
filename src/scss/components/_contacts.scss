@@ -15,5 +15,11 @@
     }
     &__link>a{
         color: white;
+        
     }
+    a:hover{
+        background-image:radial-gradient(rgb(214, 22, 22), rgba(82, 189, 20, 1));
+        text-decoration: none;
+        border-radius: 100px;
+}
 }
