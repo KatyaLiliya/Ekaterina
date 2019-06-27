@@ -1,0 +1,19 @@
+.infoblog {
+    background: #FFE01B;
+    text-align: justify;
+    padding: 50px 0;
+    font-weight: bold;
+    &__title{
+        font-size: 48px;
+        line-height: 72px;
+    }
+    &__headline{
+        font-size: 36px;
+        line-height: 72px;
+    }
+    &__description{
+        font-weight: 300;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

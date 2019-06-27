@@ -9,7 +9,7 @@ $g:50px;
         line-height: 72px;
         padding: 23px 0;
     }
-    &__width{
+   /* &__width{
         width:$g;
     }
     &__height{
@@ -17,8 +17,8 @@ $g:50px;
     }
     &__background{
         background-color: darkseagreen;
-    }
-    @mixin mix{
+    }/*
+   /* @mixin mix{
         color: red;
         text-align: center;
         font-size: 30px;
@@ -28,5 +28,5 @@ $g:50px;
     @extend .footer__width;
     @extend .footer__height;
     @extend .footer__background;
-}
+}*/
 }
