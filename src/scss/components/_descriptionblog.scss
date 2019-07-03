@@ -1,0 +1,13 @@
+.article{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    width: 1180px;
+    
+    &__title{
+        text-align: center;
+        padding: 54px 0 40px 0;
+        font-size: 55;
+    }
+}

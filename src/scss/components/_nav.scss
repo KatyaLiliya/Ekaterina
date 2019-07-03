@@ -1,0 +1,17 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 228px;
+
+    &__item{
+        font-family: 'Open Sans Condensed', sans-serif;
+        line-height: 22px;
+        font-size: 16px;
+        font-weight: 300;
+        color: black;
+    }
+    &__item:hover{
+        color: red;
+        text-decoration: none;
+      }
+}

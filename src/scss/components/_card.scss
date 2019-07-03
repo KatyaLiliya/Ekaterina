@@ -1,0 +1,32 @@
+.card{
+    width: 380px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.07);
+    
+    &__title{
+    font-size: 20px;
+    line-height: 27px;
+    margin: 15px 0 10px 0;
+
+    &__article{
+        font-size: 20px;
+        line-height: 27px;
+        border-radius: 0px;
+        width: 339.89px;
+    }
+}
+.card__img{
+    /*width: 380px;*/
+    height: 185px;
+}
+.card__text{
+    padding: 0 19px 0 21.1px; 
+    background: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+}
+.card__box{
+    display: flex;
+    padding: 0 19px 0 21.1px;
+}
+}
