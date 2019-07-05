@@ -1,0 +1,50 @@
+.contacts-blog {
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    color: black;
+	background: #FFE01B;
+    text-align: center;
+    margin: 55px 0 0px 0;
+    padding: 0 0 54px 0;
+    &__title{
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 75px;  
+        padding: 33px 0 30px 0;
+    }
+.social-contacts{
+    display: flex;
+    justify-content:space-between;
+}
+.social-contacts__vk{
+    width: 280px;
+    height: 171px;
+    background: #343434;
+}
+.social-contacts__inst{
+    width: 280px;
+    height: 171px;
+    background: #343434; 
+}
+.social-contacts__tel{
+    width: 280px;
+    height: 171px;
+    background: #343434;
+}
+.social-contacts__email{
+    width: 280px;
+    height: 171px;
+    background: #343434; 
+}
+
+
+  /*  &__link{
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 72px;
+        color: white;
+    }
+    &__link>a{
+        color: white;
+        
+    }*/
+}
