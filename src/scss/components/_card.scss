@@ -1,3 +1,16 @@
+.article{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    background: #F2F2F2;
+    width: 1180px;
+    &__title{
+        text-align: center;
+        padding: 54px 0 40px 0;
+        font-size: 55;
+    }
+}
 .card{
     width: 380px;
     background: #FFFFFF;
