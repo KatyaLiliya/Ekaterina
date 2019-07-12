@@ -5,14 +5,10 @@
     background: #F2F2F2;
     text-align: justify;
     font-weight: bold;
-    &__wrapper{
-        display: flex;
-
-    }
+    
     &__title{
         font-size: 55px;
         line-height: 75px;
-        padding: 50px 0 40px 0;
     }
     &__headline{
         font-size: 36px;
@@ -38,4 +34,14 @@
    &__article{
         display: flex;
    }
+   /*&__text{
+       width: 500
+   }*/
+}
+
+.g{
+    display: flex;
+}
+.infobox-myblog__title{
+    display: flex;
 }
