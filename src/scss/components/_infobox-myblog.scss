@@ -1,6 +1,5 @@
 .infobox-myblog {
     font-family: 'Open Sans Condensed', sans-serif !important;
-    width: 1400px;
     height: 500px;
     background: #F2F2F2;
     text-align: justify;
@@ -8,7 +7,13 @@
     
     &__title{
         font-size: 55px;
-        line-height: 75px;
+        line-height: 75px;  
+        margin: 0 0 40px 0;
+        padding: 50px 0 0 0;
+    }
+    &__title2{
+        margin: 0 0 0 20px;
+        margin-top: 1px;
     }
     &__headline{
         font-size: 36px;
@@ -24,15 +29,18 @@
         margin: 50px 0 50px 0;
     }
     &__img{
-        width: 200px;
-        height: 200px;
+        width: 280px;
+        height: 265px;
     }
     &__photo{
         width: 280px;
         height: 265px;
    }
    &__article{
+        font-size: 45px;
+        line-height: 61px;
         display: flex;
+   
    }
    /*&__text{
        width: 500
