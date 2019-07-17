@@ -1,0 +1,78 @@
+.services__title-text{
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: 1px;
+    color: #3A4959;
+    margin: 0 0 40px 100px;
+}
+.sercices__card-chiropractic{
+    width: 450px;
+    height: 470px;
+    margin: 0 0 0 100px;
+    box-shadow: 0px 0px 40px rgba(118, 157, 202, 0.15);
+    border-radius: 10px;
+}
+.sercices__card-massage{
+    width: 450px;
+    height: 470px;
+    margin: 0 0 0 100px;
+    box-shadow: 0px 0px 40px rgba(118, 157, 202, 0.15);
+    border-radius: 10px;
+}
+.sercices__card-acupuncture{
+    width: 450px;
+    height: 470px;
+    margin: 0 0 0 100px;
+    box-shadow: 0px 0px 40px rgba(118, 157, 202, 0.15);
+    border-radius: 10px;
+}
+.card-acupuncture_block{
+    display: flex;
+    align-items: center;
+}
+.sercices__card__img{
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+.sercices__card-chiropractic_article{
+    background-color: #fff;
+}
+.sercices__card-chiropractic_title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #3A4959;
+    padding: 30px 0 0 0;
+    margin: 0 0 10px 0;
+}
+.sercices__card-chiropractic_description{
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A4959;
+    margin: 0 0 20px 0;
+}
+.sercices__card-chiropractic_text{
+    margin: 0 70px 0 40px;
+}
+.sercices__card-chiropractic_link{
+    font-family: Open Sans;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #056CDE;
+}
+.sercices__card-chiropractic_links-1{
+    display: flex;
+}
+.sercices__card-chiropractic_links-2{
+    display: flex;
+}
+.sercices__card-chiropractic_links{
+padding: 0 0 40px 0;
+}
+.sercices__card{
+    display: flex;
+}
