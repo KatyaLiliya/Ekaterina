@@ -1,9 +1,43 @@
 body {
-  font-family: Oswald, sans-serif !important;
+  font-family: Oswald, sans-serif;
   background: #E5E5E5 !important;
 }
 .container {
   max-width: 1180px;
   margin: 0 auto;
   background: #E5E5E5;
+}
+@mixin button-style() {
+  font-family: Open Sans;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+@mixin border-style() {
+  background: #056CDE;
+  border-radius: 10px;
+  width: 110px;
+  height: 5px;
+}
+@mixin card-style() {
+  padding: 30px 30px 36px 60px;
+  background-color: #fff;
+  width: 410px;
+  margin: 0 0 50px 0;
+}
+@mixin footer-style() {
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 23px;
+  color: #3A4959;
+}
+@mixin services-card-style() {
+  width: 450px;
+  height: 470px;
+  margin: 0 0 0 100px;
 }

@@ -1,32 +1,34 @@
 .about{
     display: flex;
-}
-.about__img-neck{
+
+ &__img-neck{
     margin: 129px 0 0 0;
     width: 540px;
     height: 440px;
     /*box-shadow: 0px 4px 60px rgba(118, 157, 202, 0.15);
     border-radius: 10px;*/
-}
-.about__title{
+ }
+ &__article{
+    margin: 209px 0 0 60px;
+ }
+ &__title{
     width: 580px;
     font-weight: bold;
     font-size: 38px;
     line-height: 44px;
     letter-spacing: 1px;
     color: #3A4959;
-}
-.about__title-text{
+ }
+ &__title-text{
+    font-family: Montserrat;
     margin: 0 68px 0 0;
-}
-.about__description{
+ }
+ &__description{
+    font-family: Open Sans;
     font-size: 18px;
     line-height: 29px;
     color: #3A4959;
     width: 580px;
-    font-family: Open Sans;
-    margin: 20px 0 0px 0;
-}
-.about__article{
-    margin: 209px 0 0 60px;
+    margin: 20px 0 30px 0;
+ }
 }

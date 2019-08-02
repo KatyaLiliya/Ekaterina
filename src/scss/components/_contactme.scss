@@ -2,7 +2,8 @@
     background: #FFCE51;
     margin: 130px 0 0 0;
     padding: 0 0 73px 0;
-&__title-text{
+ &__title-text{
+    font-family: Montserrat;
     font-weight: bold;
     font-size: 58px;
     line-height: 67px;
@@ -10,8 +11,8 @@
     color: #3A4959;
     padding: 60px 0 0px 0;
     margin: 0 0 20px 0;
-}
-&__description{
+ }
+ &__description{
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -19,25 +20,25 @@
     line-height: 29px;
     color: #3A4959;
     margin: 0 0 20px 0;
-}
-&__tel{
+ }
+ &__tel{
+    font-family: Montserrat;
     font-weight: 800;
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #3A4959;
-}
-&__all{
+ }
+ &__all{
     max-width: 580px;
     margin-left: auto;
     margin-right: auto;
-}
-&__contacts{
+ }
+ &__contacts{
     margin: 0 0 30px 0;
-}
-&__img{
+ }
+ &__img{
     margin: 0 0 111px 0;
+ }
 }
-}
-

@@ -1,35 +1,41 @@
 .doctor{
     display: flex;
-}
-.doctor__img{
+ &__img{
     margin: 92px 0 0 0;
     background: url(/img/room.png);
     width: 540px;
     height: 340px;
-}
-.about__img-doctor{
+    border-radius: 10px;
+ }
+ &__img-doctor{
     width: 518px;
     height: 367px;
-}
-.doctor__title{
+    position:absolute;
+    left: 121px;
+    top: 3389px;
+ }
+ &__title{
     width: 580px;
     font-weight: bold;
     font-size: 38px;
     line-height: 44px;
     letter-spacing: 1px;
     color: #3A4959;
-}
-.doctor__article{
+ }
+ &__article{
     margin: 92px 0 0 60px;
-}
-.doctor__title-text{
+ }
+ &__title-text{
+    font-family: Montserrat;
     margin: 0 0px 20px 0;
-}
-.doctor__description{
+ }
+ &__description{
     font-family: Open Sans;
     font-size: 18px;
     line-height: 29px;
     color: #3A4959;
     max-width: 580px;
     margin: 20px 0 0px 0;
+ }
 }
+
