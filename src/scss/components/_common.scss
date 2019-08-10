@@ -25,9 +25,12 @@ body {
   height: 5px;
 }
 @mixin card-style() {
-  padding: 30px 30px 36px 60px;
-  background-color: #fff;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
   width: 410px;
+  height: 145px;
+  background-color: #fff;
   margin: 0 0 50px 0;
 }
 @mixin footer-style() {
