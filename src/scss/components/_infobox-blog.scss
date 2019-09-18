@@ -1,0 +1,42 @@
+.infobox-blog {
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/infoblog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+    &__wrapper{
+    display: flex;
+    padding: 0 0 70px 0;
+    }
+    &__title{
+        font-size: 55px;
+        line-height: 72px;
+        padding: 52px 0 40px 0;
+        color: white;
+    }
+    &__headline{
+        font-size: 36px;
+        line-height: 72px;
+    }
+    &__description{
+        font-family: Open Sans Condensed;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+        margin: 0 0 0 20px;
+        color: white;
+
+    }
+    &__border{
+        border-bottom: 1px solid #000000;
+        margin: 50px 0 50px 0;
+    }
+    &__img{
+        width: 200px;
+        height: 200px;
+    }
+    &__photo{
+        width: 280px;
+        height: 265px;
+   }
+}
