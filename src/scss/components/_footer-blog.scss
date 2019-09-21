@@ -1,17 +1,25 @@
 .footer-blog {
     font-family: 'Open Sans Condensed', sans-serif !important;
-   /* text-align: right;*/
 }
 .footer-site{
+    display: flex;
+    align-items: center;
     font-size: 16px;
     line-height: 22px;
-    height: 90px;
+    padding: 34px 0 34px 0;
 }
 .footer-blog__wrapper{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    /*padding: 34 0 0 0;*/
+}    
+@media screen and (max-width: 768px){
+    .footer-site{
+        padding: 19px 0px 19px 0px;
+    }
+    .nav{
+        font-size: 14px;
+        line-height: 19px;
+      }
 }
-     
-
+  

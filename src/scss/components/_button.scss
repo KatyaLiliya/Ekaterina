@@ -2,8 +2,7 @@
     display: flex;
     align-items: center; 
     justify-content: space-around;
-
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebasneue', sans-serif;
     color: black;
     font-size: 24px;
     line-height: 24px;
@@ -13,14 +12,12 @@
     text-align: center;
     border-radius:0px;
     background-color: #FFE01B;
-    margin: 57px 0 0 0;
-
+    margin: 57px 0 0 20px;
     &__2{
         display: flex;
         align-items: center; 
         justify-content: space-around;
-    
-        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Bebasneue', sans-serif;
         color: black;
         font-size: 24px;
         line-height: 24px;
@@ -36,8 +33,7 @@
         align-items: center; 
         justify-content: space-around;
         margin: 72px 0 0 0;
-    
-        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Bebasneue', sans-serif;
         color: black;
         font-size: 24px;
         line-height: 24px;
@@ -45,11 +41,98 @@
         height: 44px;
         text-decoration: none;
         text-align: center;
-        border-radius:0px;
         background-color: #FFE01B;
     } 
-} 
+    &__4{
+        display: flex;
+        align-items: center; 
+        justify-content: space-around;
+        margin: 72px 0 0 0;
+        font-family: 'Bebasneue', sans-serif;
+        color: black;
+        font-size: 24px;
+        line-height: 24px;
+        width: 228px;
+        height: 44px;
+        text-decoration: none;
+        text-align: center;
+        background-color: #FFE01B;
+    }
+    &__5{
+        display: flex;
+        align-items: center; 
+        justify-content: space-around;
+        margin: 63px 0 0 0;
+        font-family: 'Bebasneue', sans-serif;
+        color: black;
+        font-size: 24px;
+        line-height: 24px;
+        width: 228px;
+        height: 44px;
+        text-decoration: none;
+        text-align: center;
+        background-color: #FFE01B;
+    }
+}
+.button:hover{
+    background: #ECCC00;
+}
+.button:active{
+    background: #FFEB6C;
+}
 .button-allnews{
     display: flex;
     justify-content: center;
+    padding: 0 0 54px 0;
+    margin-top: -1.4rem;
+}
+@media screen and (max-width: 768px){
+    .button{
+        width: 117px;
+        height: 35px;
+        margin: 30px 0 0 20px;
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .button__2{
+        width: 162px;
+        height: 35px;
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .button__3{
+        width: 220px;
+        height: 35px;
+        font-size: 22px;
+        line-height: 22px;
+        margin: 52px 0 0 0;
+    }
+    .button-allnews{
+        padding: 0 0 40px 0;
+    }
+}
+@media screen and (max-width: 320px){
+    .button{
+        width: 280px;
+        height: 30px;
+        font-size: 20px;
+        line-height: 20px;
+        margin: 25px 0 0 0px;
+    }
+    .button__2{
+        width: 154px;
+        height: 30px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .button__3{
+        width: 280px;
+        height: 30px;
+        font-size: 20px;
+        line-height: 20px;
+        margin: 35px 0 0 0;
+    }
+    .button-allnews{
+        padding: 0 0 25px 0;
+    }
 }

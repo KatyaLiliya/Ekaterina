@@ -1,31 +1,32 @@
 .infobox-blog {
     font-family: 'Open Sans Condensed', sans-serif !important;
-    width: 1400px;
-    height: 500px;
     background-image:linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/infoblog.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: justify;
-    font-weight: bold;
     &__wrapper{
     display: flex;
+    padding: 0 0 70px 0;
     }
     &__title{
         font-size: 55px;
         line-height: 72px;
-        padding: 50px 0 40px 0;
+        padding: 52px 0 40px 0;
         color: white;
+        font-weight: bold;
     }
     &__headline{
         font-size: 36px;
         line-height: 72px;
     }
     &__description{
-
+        font-family: Open Sans Condensed;
         font-weight: 300;
-        font-size: 18px;
+        font-size: 20px;
+        line-height: 27px;
         margin: 0 0 0 20px;
         color: white;
+        text-align:left;
     }
     &__border{
         border-bottom: 1px solid #000000;
@@ -39,4 +40,34 @@
         width: 280px;
         height: 265px;
    }
+}
+@media screen and (max-width: 768px){
+    .infobox-blog__title{
+        font-size: 45px;
+        line-height: 61px;
+        padding: 30px 0 22px 0;
+    }
+    .infobox-blog__description{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .infobox-blog__wrapper{
+        padding: 0 0 50px 0;
+    }
+}
+@media screen and (max-width: 320px){
+    .infobox-blog__title{
+        font-size: 30px;
+        line-height: 41px;
+        padding: 30px 0 12px 0;
+    }
+    .infobox-blog__description{
+        margin: 25px 0 0 0;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .infobox-blog__wrapper{
+        flex-direction: column;
+        padding: 0 0 40px 0;
+    }
 }
