@@ -17,6 +17,13 @@
         font-size: 55;
     }
 }
+@media screen and (max-width: 320px) {
+    .card-blog-article{
+        margin: 11px -10px 0 -10px;
+      &__title{
+       }
+    }
+}
 .article-second{
     display: flex;
     align-items: center; 
@@ -73,11 +80,6 @@
     background: #F2F2F2;
 }
 @media (max-width: 768px){
-    .article__title{
-        padding: 30px 0 30px 0;
-        font-size: 45px;
-        line-height: 61px;
-    } 
     .k:nth-child(3){
         display: none;
     }
@@ -137,11 +139,6 @@
         line-height: 22px;;
         padding:0 0 0 18px;
     }
-    .article__title{
-        padding: 30px 0 20px 0;
-        font-size: 30px;
-        line-height: 41px;
-    } 
 }
     
     

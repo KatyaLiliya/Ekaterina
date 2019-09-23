@@ -13,6 +13,24 @@
         color: #000000;
     }
 }
+@media screen and (max-width: 768px) {
+    .article, .article-allnews{
+      &__title{
+        padding: 30px 0 30px 0;
+        font-size: 45px;
+        line-height: 61px;
+       }
+    }
+}
+@media screen and (max-width: 320px) {
+    .article, .article-allnews{
+      &__title{
+        padding: 30px 0 20px 0;
+        font-size: 30px;
+        line-height: 41px;
+       }
+    }
+}
 .mycard{
     display: flex;
     width: 33.3333%;
