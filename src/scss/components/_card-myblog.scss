@@ -1,0 +1,63 @@
+.article, .article-allnews{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    background: #F2F2F2;
+    margin: 0 -10px;
+    &__title{
+        text-align: center;
+        padding: 54px 0 40px 0;
+        font-size: 55;
+        color: #000000;
+    }
+}
+@media screen and (max-width: 768px) {
+    .article, .article-allnews{
+      &__title{
+        padding: 30px 0 30px 0;
+        font-size: 45px;
+        line-height: 61px;
+       }
+    }
+}
+@media screen and (max-width: 320px) {
+    .article, .article-allnews{
+      &__title{
+        padding: 30px 0 20px 0;
+        font-size: 30px;
+        line-height: 41px;
+       }
+    }
+}
+.mycard{
+    display: flex;
+    width: 33.3333%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: -0.5rem;
+    &__title{
+        background: #F2F2F2;
+        font-size: 20px;
+        line-height: 27px;
+        margin: 15px 0 10px 0;
+    }
+    &__img{
+        width: 100%;
+    }
+}
+.mycard-content{
+    &__title{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__date{
+        display: flex;
+        align-items: center;
+        font-family: Open Sans Condensed;
+        font-size: 20px;
+        line-height: 27px;
+        padding:0 0 0 21.68px;
+    }
+}

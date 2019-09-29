@@ -1,7 +1,35 @@
-.nav__index{
+.nav{
     display: flex;
-    height: 65px;
-    align-items: center;
-    font-size: 13px;
-    line-height: 18px;
+    justify-content: space-between;
+    width: 228px;
+}
+@media screen and (max-width: 768px){
+    .nav{
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media screen and (max-width: 320px){
+    .nav{
+        max-width: 200px;
+        justify-content: space-between;
+        margin: 9px 0 0 0;
+    }
+}
+.nav__item{
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+}
+.nav__item:hover{
+    color: red;
+    text-decoration: none;
+}
+@media screen and (max-width: 320px){
+    .nav__item{
+        font-size: 14px;
+        line-height: 19px;
+    }
 }
