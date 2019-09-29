@@ -1,0 +1,20 @@
+.introduction__border{
+    @include border-style();
+    margin: 75px 0 30px 100px;
+}
+.about__border{
+    @include border-style();
+    margin: 0 0 30px 0;
+}
+.services__border{
+    @include border-style();
+    margin: 0 0 30px 100px;
+}
+.advantages__border{
+    @include border-style();
+    margin: 0 0 30px 100px;
+}
+.doctor__border{
+    @include border-style();
+    margin: 0 0 30px 0;
+}

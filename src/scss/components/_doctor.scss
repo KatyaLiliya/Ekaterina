@@ -1,0 +1,40 @@
+.doctor{
+    display: flex;
+ &__img-background{
+    margin: 92px 0 0 0;
+    background: url(/img/room.png);
+    width: 540px;
+    height: 340px;
+    position: relative;
+ }
+ &__img{
+    position:absolute;
+    bottom: 0px;
+    width: 518px;
+    height: 367px;
+ }
+ &__title{
+    width: 580px;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: 1px;
+    color: #3A4959;
+ }
+ &__article{
+    margin: 92px 0 0 60px;
+ }
+ &__title-text{
+    font-family: Montserrat;
+    margin: 0 0px 20px 0;
+ }
+ &__description{
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 29px;
+    color: #3A4959;
+    max-width: 580px;
+    margin: 20px 0 0px 0;
+ }
+}
+

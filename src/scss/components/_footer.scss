@@ -1,13 +1,45 @@
-$g:50px;
-.footer {
+.footer{
+ &__content-nav{
     font-family: 'Open Sans Condensed', sans-serif !important;
-    color: white;
-	background: #45B7E3;
-    text-align: right;
-    &__site{
-        font-weight: 300;
-        font-size: 48px;
-        line-height: 72px;
-        padding: 23px 0;
-    }
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 0px;
+ }
+ &__main{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 35px 0;
+ }
+ &__contacts-social{
+    display: flex;
+    justify-content: space-between;
+ }
+ &__social{
+    display: flex;
+    align-items: center;
+    margin: 0 41px 0 0;
+ }
+ &__tel{
+  @include footer-style();
+  font-weight: bold;
+ }
+ &__adress{
+  @include footer-style();
+  margin: 5px 0 0 0;
+ }
+ &__adress-tel{
+  max-width: 280;
+ }
+ &__schedule-day{
+  @include footer-style();
+  margin: 0px 0 5px 0;
+ }
+ &__copyright-all{
+  @include footer-style();
+ }
+ &__main2{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 50px 0;
+ }
 }

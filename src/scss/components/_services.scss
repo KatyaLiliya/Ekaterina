@@ -1,0 +1,77 @@
+.services{
+ &__title-text{
+   font-family: Montserrat;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: 1px;
+    color: #3A4959;
+    margin: 0 0 40px 100px;
+ }
+ &__card{
+    display: flex;
+ }
+ &__card-chiropractic-massage{
+    margin: 0 0 100px 0;
+ }
+ &__card-chiropractic{
+     @include services-card-style();
+    /*box-shadow: 0px 0px 40px rgba(118, 157, 202, 0.15);*/
+ }
+ &__card-massage{
+    @include services-card-style();
+    /*box-shadow: 0px 0px 40px rgba(118, 157, 202, 0.15);*/
+ }
+ &__card-acupuncture{
+    @include services-card-style();
+    /*/box-shadow: 0px 0px 40px rgba(118, 157, 202, 0.15);*/ 
+ }
+ &__card__img{
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+ }
+ &__card-article{
+    background-color: #fff;
+    border-radius: 10px;
+}
+ &__card-title{
+   font-family: Montserrat;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #3A4959;
+    padding: 30px 0 0 0;
+    margin: 0 0 10px 0;
+ }
+ &__card-description{
+    font-family: Open Sans !important;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A4959;
+    margin: 0 0 20px 0;
+}
+ &__card-chiropractic_link{
+    font-family: Open Sans;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #056CDE;
+ }
+ &__card-chiropractic_links-1{
+    display: flex;
+ }
+ &__card-chiropractic_links-2{
+    display: flex;
+ }
+ &__card-chiropractic_links{
+    padding: 0 0 40px 0;
+ }
+ &__card-text{
+    margin: 0 70px 0 40px;
+ }
+}
+.card-acupuncture_block{
+    display: flex;
+    align-items: center;
+}
